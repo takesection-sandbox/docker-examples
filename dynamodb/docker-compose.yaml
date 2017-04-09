@@ -1,0 +1,8 @@
+version: "2"
+services:
+  dynamodb:
+    build:
+      context: .
+    container_name: dynamodb
+    ports:
+    - "8000:8000"
