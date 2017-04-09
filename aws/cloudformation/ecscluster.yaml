@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Resources:
+  Vpc1:
+    Type: "AWS::EC2::VPC"
+    Properties:
+      CidrBlock: 10.0.0.0/16
+  ECSCluster:
+    Type: AWS::ECS::Cluster
+    Properties:
+      ClusterName: "ECSCluster"
+Outputs:
+  ecscluster:
+    Value: !Ref 'ECSCluster'
+    Export:
+      Name: 'ECSCluster'
+  vpc1:
+    Value: !Ref 'Vpc1'
+    Export:
+      Name: 'Vpc1'
