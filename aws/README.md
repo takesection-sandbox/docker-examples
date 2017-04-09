@@ -107,4 +107,4 @@ ECS のインスタンスは、ECS クラスターにインターネット接続
 # テンプレート
 
 * [ECS Cluster](https://github.com/takesection/docker-examples/blob/master/aws/cloudformation/ecscluster.yaml)
-* [ECS](https://github.com/takesection/docker-examples/blob/masteraws/cloudformation/ecs.yaml)
+* [ECS](https://github.com/takesection/docker-examples/blob/master/aws/cloudformation/ecs.yaml)
